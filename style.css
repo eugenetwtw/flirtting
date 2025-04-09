@@ -1,0 +1,50 @@
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #e83e8c;
+    margin-bottom: 30px;
+}
+
+#flirtyBtn {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#flirtyBtn:hover {
+    background-color: #d6336c;
+    transform: translateY(-2px);
+}
+
+#messageDisplay {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 18px;
+    color: #343a40;
+    min-height: 60px;
+    border-top: 1px solid #eee;
+}
